@@ -1,1 +1,1 @@
-# ai-learn-note
+# AI 相关学习笔记汇总
