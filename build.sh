@@ -13,7 +13,7 @@ pandoc $SUMMARY_FILE -t html | \
     pandoc -f markdown --variable fontsize=10pt \
             --variable=geometry:b5paper \
             --variable mainfont="Arial" \
-            --variable documentclass=scrbook --toc --latex-engine=xelatex -o book.pdf
+            --variable documentclass=scrbook --toc --pdf-engine=xelatex -VCJKmainfont="SimSong-Regular" -o book.pdf
 else
 echo "File '$SUMMARY_FILE' does not exist"
 fi
