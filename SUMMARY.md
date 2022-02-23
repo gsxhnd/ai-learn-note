@@ -1,6 +1,5 @@
 # Table of contents
 
-- [all-in-one](one/all.md)
 - [前言](README.md)
 - [零基础入门深度学习系列](00/README.md)
   - [感知器](00/01.md)
