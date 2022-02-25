@@ -1,7 +1,15 @@
 ##/bin/bash
 
-cat one/start.md > one/all.md
-cat README.md >> one/all.md
-cat 00/README.md >> one/all.md
-cat 00/01.md >> one/all.md
-cat 00/02.md >> one/all.md
+dist="one/all.md"
+echo $dist
+
+cat one/start.md > $dist
+cat README.md >> $dist
+cat 00/README.md >> $dist
+cat 00/01.md >> $dist
+cat 00/02.md >> $dist
+
+cat lstm/README.md >> $dist
+cat lstm/01.md >> $dist
+cat lstm/02.md >> $dist
+cat lstm/03.md >> $dist
