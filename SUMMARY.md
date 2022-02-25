@@ -11,4 +11,5 @@
   - [递归神经网络](00/07.md)
 - [LSTM 时间序列任务](lstm/README.md)
   - [理解 LSTM 网络及训练方法](lstm/01.md)
-  - [如何为 LSTMs 准备数据](lstm/02.md)
+  - [如何训练 LSTMs](lstm/02.md)
+  - [如何为 LSTMs 准备数据](lstm/03.md)
