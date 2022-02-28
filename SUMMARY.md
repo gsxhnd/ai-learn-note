@@ -14,3 +14,5 @@
   - [理解 LSTM 网络及训练方法](lstm/01.md)
   - [如何训练 LSTMs](lstm/02.md)
   - [如何为 LSTMs 准备数据](lstm/03.md)
+  - [Keras 开发 LSTM](lstm/04.md)
+  - [序列预测模型](lstm/05.md)
