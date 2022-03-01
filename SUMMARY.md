@@ -1,7 +1,7 @@
 # Table of contents
 
 - [前言](README.md)
-- [线性代数](lineare*algebra/README.md)
+- [线性代数](doc/lineare_algebra/README.md)
 - [零基础入门深度学习系列](00/README.md)
   - [感知器](00/01.md)
   - [线性单元和梯度下降](00/02.md)
