@@ -29,8 +29,6 @@ class Perceptron(object):
         # 最后利用reduce求和
         input_data = reduce(lambda x, y: x+y, map(lambda x, y: x *
                                                   y, input_vec, self.weights)) + self.bias
-        print("预测输入向量: {0}".format(input_vec))
-        print("激活函数输入参数: ", input_data)
         return self.activator(input_data)
 
     def train(self, input_vecs, labels, iteration, rate):
@@ -59,8 +57,8 @@ class Perceptron(object):
         # 把input_vec[x1,x2,x3,...]和weights[w1,w2,w3,...]打包在一起
         # 变成[(x1,w1),(x2,w2),(x3,w3),...]
         # 然后利用感知器规则更新权重
-        print("更新权重前, 输入向量: {0}, 输出结果: {1}, 实际标签: {2}, 速率: {3}".format(
-            input_vec, output, label, rate))
+        print("更新权重前, 输入向量: {0}, 输出结果: {1}, 实际标签: {2}, 速率: {3}, 当前权重: {4}, 当前偏值项: {5}".format(
+            input_vec, output, label, rate, self.weights, self.bias))
         delta = label - output
         self.weights = list(map(
             lambda x, w: w + rate * delta * x,
