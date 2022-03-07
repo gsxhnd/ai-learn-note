@@ -16,3 +16,6 @@
   - [如何为 LSTMs 准备数据](doc/lstm/03.md)
   - [Keras 开发 LSTM](doc/lstm/04.md)
   - [序列预测模型](doc/lstm/05.md)
+- [深度学习时间序列预测](doc/dl-for-tsf/README.md)
+  - [处理电表数据](doc/dl-for-tsf/ch-16.md)
+  - [如何开发 CNNs 实现多步能源消耗预测](doc/dl-for-tsf/ch-19.md)
