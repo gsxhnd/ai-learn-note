@@ -6,6 +6,7 @@
 - [线性代数](doc/lineare_algebra/README.md)
 - [数据分析](doc/da/README.md)
   - [Numpy](doc/da/numpy/README.md)
+    - [什么是 NumPy?](doc/da/numpy/01-whatisnumpy.md)
   - [Pandas](doc/da/pandas/README.md)
   - [matplotlib](doc/da/matplotlib/README.md)
 - [零基础入门深度学习系列](doc/dl/README.md)
